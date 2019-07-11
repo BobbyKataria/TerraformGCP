@@ -1,2 +1,8 @@
 #!/bin/bash
-echo this is ***************** test1
+echo this is working
+
+git clone https://github.com/BobbyKataria/poolappScript.git
+
+cd ~/poolappScript
+
+

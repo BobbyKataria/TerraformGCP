@@ -19,7 +19,7 @@ variable "image_project" {
 }
 
 variable "image" {
-	default = "centos-7"
+	default = "ubuntu-1804-lts"
 }
 
 variable "network" {
@@ -39,7 +39,7 @@ variable "private_key" {
 }
 
 variable "package_manager" {
-	default = "yum"
+	default = "apt"
 }
 
 variable "update_packages" {

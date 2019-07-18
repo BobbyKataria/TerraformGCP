@@ -1,0 +1,7 @@
+sudo apt install -y git
+
+git clone https://github.com/BobbyKataria/poolappScript
+
+cd poolappScript
+
+./mongodb.sh

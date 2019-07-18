@@ -1,0 +1,9 @@
+echo "THIS ***** BACKEND SCRIPT RUNS"
+
+sudo apt install -y git
+
+git clone https://github.com/BobbyKataria/poolappScript
+
+cd poolappScript
+
+./installbackend.sh
